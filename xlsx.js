@@ -7826,7 +7826,6 @@ function write_ws_xml_data(ws, opts, idx, wb) {
 			params = ({r:rr});
 			if(rows && rows[R]) {
 				row = rows[R];
-        console.log(row);
 				if(row.hidden) params.hidden = 1;
 				height = -1;
 				// if(row.hpx) height = px2pt(row.hpx);
